@@ -1,0 +1,21 @@
+import java.io.*;
+import  java.util.*;
+
+//Read only region starts
+
+class UserMainCode
+{
+
+  public int CountOdds(int input1,int input2,int input3,int input4,int input5)
+{
+//Read only region ends
+//Write code here...
+    int count=0;
+        if(input1%2==1 || input1%2==-1) count++;
+        if(input2%2==1 || input2%2==-1) count++;
+        if(input3%2==1 || input3%2==-1) count++;
+        if(input4%2==1 || input4%2==-1) count++;
+        if(input5%2==1 || input5%2==-1) count++;
+        return count;
+	}
+}
